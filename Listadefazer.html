@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site de Lista de Afazeres</title>
+    <link rel="stylesheet" href="Listadefazer.css">
+</head>
+<body>
+    <header>
+        <h1>Lista de Afazeres</h1>
+        <button id="toggleTheme">🌙</button>
+    </header>
+    <main>
+        <section id="addTask">
+            <h2>Adicionar Nova Tarefa</h2>
+            <form id="taskForm">
+                <input type="text" id="title" placeholder="Título da tarefa" required maxlength="100">
+                <textarea id="description" placeholder="Descrição da tarefa" required maxlength="500"></textarea>
+                <button type="submit">Adicionar Tarefa</button>
+            </form>
+        </section>
+        <section id="taskList">
+            <h2>Lista de Tarefas</h2>
+            <div class="filters">
+                <button class="filter-btn active" data-filter="all">Todas</button>
+                <button class="filter-btn" data-filter="pending">Pendentes</button>
+                <button class="filter-btn" data-filter="completed">Concluídas</button>
+            </div>
+            <ul id="tasks"></ul>
+        </section>
+    </main>
+    <script src="Listadefazer.js"></script>
+</body>
+</html>
