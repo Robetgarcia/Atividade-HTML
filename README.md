@@ -27,12 +27,6 @@ Uma aplicação web responsiva para gerenciamento de tarefas, construída com HT
 4. Use filtros e ações nos botões das tarefas.
 5. Ative o tema escuro clicando no ícone no header.
 
-## Deploy
-- Crie um repositório GitHub público.
-- Faça upload dos arquivos: `index.html`, `style.css`, `script.js` e este `README.md`.
-- Ative GitHub Pages nas configurações do repositório (branch `main`).
-- Acesse via URL: `https://seuusuario.github.io/todo/`.
-
 ## Estrutura de Arquivos
 todo/
     index.html
